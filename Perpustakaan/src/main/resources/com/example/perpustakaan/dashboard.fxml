@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perpustakaan.SceneController">
+   <children>
+      <Button fx:id="btnCRUD" layoutX="256.0" layoutY="213.0" mnemonicParsing="false" onAction="#btnCRUDOnClick" style="-fx-background-color: #5bd61e;" text="Manage Buku" textFill="WHITE" />
+      <Label layoutX="216.0" layoutY="162.0" text="Selamat Datang">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnKeluar" layoutX="256.0" layoutY="255.0" mnemonicParsing="false" onAction="#btnKeluarOnClick" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: #d61e1e;" text="Keluar" textFill="WHITE" />
+      <ImageView fitHeight="122.0" fitWidth="200.0" layoutX="239.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-user-90.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
